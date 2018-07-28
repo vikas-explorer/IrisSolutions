@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iris.API", "Iris.API\Iris.API.csproj", "{31FCFCCB-EB62-4251-B087-31A9EF300541}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iris.API", "Iris.API\Iris.API.csproj", "{31FCFCCB-EB62-4251-B087-31A9EF300541}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iris.Entities", "Iris.Entities\Iris.Entities.csproj", "{F409E990-7A6B-4E3C-B8CC-F963478388E2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iris.Infrastructure", "Iris.Infrastructure\Iris.Infrastructure.csproj", "{FEABB9BC-7745-4ECD-A227-062EF3C4F63F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iris.Repos", "Iris.Repos\Iris.Repos.csproj", "{DBB54F8C-0D0E-4F4C-B9F1-A107994A70C4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iris.Models", "Iris.Models\Iris.Models.csproj", "{F5C8BAA3-481D-4C0C-BF1C-59B99E5231D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iris.Services", "Iris.Services\Iris.Services.csproj", "{DC5A1458-E650-4CF7-B540-9626D058A053}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +25,26 @@ Global
 		{31FCFCCB-EB62-4251-B087-31A9EF300541}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31FCFCCB-EB62-4251-B087-31A9EF300541}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31FCFCCB-EB62-4251-B087-31A9EF300541}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F409E990-7A6B-4E3C-B8CC-F963478388E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F409E990-7A6B-4E3C-B8CC-F963478388E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F409E990-7A6B-4E3C-B8CC-F963478388E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F409E990-7A6B-4E3C-B8CC-F963478388E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEABB9BC-7745-4ECD-A227-062EF3C4F63F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEABB9BC-7745-4ECD-A227-062EF3C4F63F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEABB9BC-7745-4ECD-A227-062EF3C4F63F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEABB9BC-7745-4ECD-A227-062EF3C4F63F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBB54F8C-0D0E-4F4C-B9F1-A107994A70C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBB54F8C-0D0E-4F4C-B9F1-A107994A70C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBB54F8C-0D0E-4F4C-B9F1-A107994A70C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBB54F8C-0D0E-4F4C-B9F1-A107994A70C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5C8BAA3-481D-4C0C-BF1C-59B99E5231D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5C8BAA3-481D-4C0C-BF1C-59B99E5231D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5C8BAA3-481D-4C0C-BF1C-59B99E5231D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5C8BAA3-481D-4C0C-BF1C-59B99E5231D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC5A1458-E650-4CF7-B540-9626D058A053}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC5A1458-E650-4CF7-B540-9626D058A053}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC5A1458-E650-4CF7-B540-9626D058A053}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC5A1458-E650-4CF7-B540-9626D058A053}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
